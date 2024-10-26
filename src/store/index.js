@@ -22,7 +22,7 @@ export default new Vuex.Store({
           phone: "",
           email: "",
           interests: "",
-          status:null,
+          status:"",
         },
       ];
     },

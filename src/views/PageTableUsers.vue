@@ -67,7 +67,7 @@ export default {
         (v) => /.+@.+\..+/.test(v) || "Введите корректный Email",
       ],
       nameRulesDefault: [(v) => !!v || "Необходимо заполнить!"],
-      nameSelectRules: [(v) => v != null || 'Выберите статус!']
+      nameSelectRules: [(v) => v !== "" || 'Выберите статус!']
     };
   },
   methods: {
